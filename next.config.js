@@ -8,6 +8,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-}
+  experimental: {
+    cacheComponents: true,
+  },
+};
 
-export default nextConfig
+export default nextConfig;
